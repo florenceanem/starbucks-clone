@@ -9,7 +9,7 @@
 .main-container{
     max-width: 1440px;
     margin:0 auto;
-    
+     
 }
 .announcements span{
     padding-top: 3.2rem;
@@ -18,16 +18,49 @@
     text-align: center;
     line-height: 1.5;
 }
-.rewards{
+.left-right-section{
     display: flex;
+    margin-top: 32px; 
+    margin-bottom: 32px;
 }
-.text{
+.left-right-section .text{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#f1f8f6;
+    color: #1e3932;
+    padding: 32px 48px;
 }
-.image{
+.left-right-section .image{
     width: 50%;
     height: 420px;
 }
 .image img{
     height: 100%;
+}
+.text h1, .text h3{
+    margin:0;
+}
+.text h1{
+    margin-bottom: 24px;
+}
+.text h3{
+    margin-bottom: 32px; 
+    text-align: center;
+    line-height: 1.5;
+}
+.text .cta{
+    padding: 7px 16px ;
+    border:1px solid;
+    border-radius: 50px;
+    color: #1e3932;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.text .cta:hover{
+    background-color:rgba(30,57,50,.1) ;
+
 }
